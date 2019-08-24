@@ -580,3 +580,149 @@ top: -9px;
 	font-weight: 700;
 	margin: 0;
 }
+
+/* counter-area */
+.single-counter > span {
+	color: #333333;
+	font-size: 28px;
+	font-weight: 600;
+	font-family: poppins;
+	display: block;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+.single-counter > p {
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 0;
+	color: #333333;
+}
+
+
+/* latest blog */
+.blog-wrapper {
+border: 1px solid #e0e0e0;
+overflow: hidden;
+padding: 30px;
+transition: .3s;
+}
+.blog-wrapper:hover{
+	border: 1px solid transparent;
+	background: #fff;
+
+}
+.blog-inner {
+overflow: hidden;
+}
+.tag-blog > a {
+	color: #333;
+	font-size: 14px;
+	background: #fbba42;
+	padding: 7px 20px;
+	display: inline-block;
+	border-radius: 30px;
+	line-height: 1;
+}
+.blog-inner h4 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.blog-inner > p {
+	line-height: 30px;
+	font-size: 17px;
+	margin-bottom: 20px;
+
+}
+.blog-meta {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 25px;
+}
+.blog-meta > span {
+	color: #646464;
+}
+.blog-meta span > a {
+	color: #333333;
+	font-size: 11px;
+}
+.blog-more {
+	color: #3b3f42;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: .3s;
+	transform: translateX(0px);
+	display: inline-block;
+	transition: all .3s;
+}
+.blog-more-btn {
+		transform: translateX(40px);
+		transition: .3s;
+}
+.blog-wrapper:hover .blog-more-btn {
+	transform: translateX(0);
+}
+
+.slick-dots > button {
+	text-indent: -10000px;
+}
+.custom-row {
+	margin: 0 -15px;
+}
+.slick-dots {
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.blog-active .slick-dots > li {
+	display: inline-block;
+	margin: 0 5px;
+	line-height: 0;
+}
+.blog-active .slick-dots > li.slick-active button{
+	  background: #646464;
+  }
+.blog-active .slick-slider {
+	position: relative;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	touch-action: pan-y;
+	display: block;
+}
+.blog-active .slick-dots button {
+	text-indent: -10000px;
+	height: 10px;
+	width: 10px;
+	padding: 0;
+	border-radius: 50%;
+	border: 2px solid #646464;
+}
+
+
+/* testimonial wrapper */
+  .testimonial-wrapper.text-center {
+	border: 1px solid #ebebeb;
+	padding: 0 40px 35px;
+	padding-top: 0;
+}
+.testimonial-wrapper > p {
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.client-info > h4 {
+	font-size: 18px;
+	font-weight: 500;
+}
+.client-info > span {
+	font-size: 14px;
+	color: #777777;
+}
+.testimonial-img {
+	margin-top: -59px;
+	margin-bottom: 25px;
+}

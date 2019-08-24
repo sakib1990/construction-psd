@@ -1,5 +1,7 @@
 (function ($) {
   'use strict';
+
+  // slider-active
   $('.slider-active').slick({
     dots: false,
     arrows: false,
@@ -30,14 +32,83 @@
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+     
+    ]
+  });
+
+  // blog-active
+  $('.blog-active').slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+     
     ]
   });
 
 
+  // testimonial-active
+  $('.testimonial-active').slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+     
+    ]
+  });
 
+
+// protfolio active
   var grid = $('.grid').isotope({
     itemSelector: '.grid-item',
     percentPosition: true,
@@ -60,13 +131,23 @@
     $(this).addClass('active');
     event.preventDefault();
   });
+
+  
   // magnific popup
   $('.popup-img').magnificPopup({
-    type: 'image'
-    // other options
+    type: 'image',
+    gallery: {
+      enabled: true
+    },
+    
   });
 
 
+// counterUp
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
 
 
 })(jQuery);
