@@ -1,0 +1,160 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.single-slider.slider-height {
+    min-height: 700px;
+}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-top-area {
+padding: 0 0px;
+}
+.header-bottom-area {
+padding-left: 0;
+padding-right: 0;
+}
+.main-menu ul li {
+margin-left: 30px;
+}
+.header-button > a {
+padding: 14px 16px;
+}
+.header-button {
+	margin-left: 25px;
+}
+.wrapper-box {
+	padding: 0 15px;
+}
+.slide-img > img {
+	display: block;
+	width: 100%;
+}
+.single-slider.slider-height {
+	min-height: 600px;
+}
+.single-features.text-center {
+	padding: 0;
+}
+.promotion-text {
+	padding-left: 20px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.single-slider.slider-height {
+	min-height: 550px;
+}
+.single-features h2 {
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.single-features.text-center {
+	padding: o;
+}
+.promotion-text {
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wrapper-box {
+	padding-: 0 20px;
+}
+.footer-link li {
+	width: 100%;
+	float: left;
+}
+.footer-widget > h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.header-top-area {
+		padding: 0 10px;
+	}
+	.header-bottom-area {
+		padding: 17px 10px 4px;
+	}
+	.wrapper-box {
+		padding: 0 20px;
+	}
+	.single-slider.slider-height {
+		min-height: 550px;
+	}
+	.slider-content h1 {
+		font-size: 32px;
+		line-height: 43px;
+	}
+	.slider-content p {		
+		padding-right: 0;
+	}
+	.slider-content span {
+		letter-spacing: 2px;
+	}
+	.features-title > h2 {
+		font-size: 36px;
+	}
+	.promotion-text {
+	padding-left: 0;
+}
+
+.protfolio-menu > button {
+	margin: 0 2px 5px;
+}
+.counter-area {
+	background-size: cover;
+}
+.cap > img {
+	width: 100%;
+}
+.single-brand {
+	text-align: center;
+}
+.single-brand > a {
+	display: inline-block;
+}
+
+
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
