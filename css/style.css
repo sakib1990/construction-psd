@@ -215,16 +215,25 @@ background: #444;
     padding: 18px 0;
     display: inline-block;
 }
-.language ul li:hover> a
-{color: #fbba42 }
+.language ul li:hover> a{
+	color: #fbba42;
+}
 
+.language-header-3 > ul > li > a {
+	border: 2px solid #ebebeb;
+	border-radius: 30px;
+	padding: 12px 30px;
+	line-height: 1;
+}
 
 
 .header-top-area {
     border-bottom: 1px solid #fbba42;
 }
 
-.language ul li {}
+.language ul li {
+	position: relative;
+}
 .language ul li ul {
 	position: absolute;
 	top: 100%;
@@ -255,6 +264,13 @@ background: #444;
 	margin-left: 30px;
 	position: relative;
 }
+.social-icon.social-header-3 {
+	margin-left: 0;
+	padding-left: 0;
+}
+social-header-3::before{
+	display:none;
+}
 .transparent-header .social-icon::before {
 	position: absolute;
 	background: #e0af4c;
@@ -264,6 +280,7 @@ background: #444;
 	top: 1px;
 	left: 0;
 }
+
 .social-icon > a {
     color: #646464;
     font-size: 14px;
@@ -443,6 +460,7 @@ header.transparent-header {
 	display: block;
 	padding: 10px 20px;
 	color: #ddd;
+	text-align: left;
 }
 .main-menu ul li ul.submenu li:hover > a {
 	background: #fbba42;
@@ -452,6 +470,20 @@ header.transparent-header {
 	left: 100%;
 	top: 0
 }
+
+
+
+/* header-3 */
+.header-left-bar ul li {
+	margin-left: 0;
+}
+.header-right.header-left-bar {
+	margin-top: 3px;
+}
+header-3-right{
+	margin-top: 3px;
+}
+
 
 /* slider-area */
 .single-slider.slider-height {
@@ -492,11 +524,26 @@ header.transparent-header {
 }
 
 
-
-
-
-
-
+/* slider-3  */
+.single-slider.slider-height-3 {
+	min-height: 720px;
+	background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.slider-height-3 .slider-content h1 {
+	font-size: 90px;
+	color: #fff;
+	line-height: 1.1;
+	margin-bottom: 30px;
+	
+}
+.slider-height-3 .slider-content span {
+	color: #fff;
+}
+.slider-height-3 .btn {
+	border-radius: 30px;
+}
 /* features-area */
 
 .single-features h2 {
@@ -550,13 +597,12 @@ header.transparent-header {
 .promotion-area.gray-bg {
 	position: relative;
 }
-.promotiion-img {
+.promotion-img-3 {
 	position: absolute;
 	left: 0;
 	top: 0;
 	height: 100%;
-	width: 50%;
-	background-size: cover;
+	width: 100%;
 }
 
 /* protfolio-area */
@@ -881,11 +927,36 @@ overflow: hidden;
 	border-bottom: 1px solid #fbba42;
 }
 
+
+
+
+
+
+/* testimonial-3 */
+.testimonial-3 {
+	margin: 0;
+	padding: 48px;
+}
+.testimonial-3 i {
+	color: #fbba42;
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+.testimonial-3 > p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
 /* testimonial-2 */
-.testimonial-item.text-center {
-	font-size: ;
-	color: ;
-	margin-bottom: ;
+.testimonial-item i {
+	font-size: 72px;
+	color: #fbba42;
+	margin-bottom: 40px;
 }
 .testimonial-item > p {
 margin-bottom: 25px;
@@ -1110,4 +1181,73 @@ margin-bottom: 7px;
 }
 .team-icon > a:hover{
 	background: #fff;
+}
+
+
+.our-mission .btn-link {
+	font-size: 18px;
+	font-weight: 600;
+	border: none;
+	color: #333;
+	padding: 0;
+}
+.our-mission .btn-link::before{
+	position: absolute;
+	content:"-" ;
+	right: 0;
+	background: #fbba42;
+	border: 1px solid #fbba42;
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+
+}
+.our-mission .btn-link.collapsed::before{
+	position: absolute;
+	content:"+" ;
+	border: 1px solid #282828;
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+	background: none;
+
+}
+.btn-link:focus{
+	text-decoration: none;
+}
+.our-mission .btn-link:hover {
+	color: inherit;
+	text-decoration: none;
+	background-color: transparent;
+	border-color: transparent;
+}
+.our-mission .card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 0;
+	border: 0;
+	padding: 0;
+	background: none;
+	position: relative;
+}
+.our-mission .card {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 40px;
+}
+.our-mission .card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+	padding-left: 0;
 }
