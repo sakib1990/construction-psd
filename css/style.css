@@ -694,6 +694,50 @@ top: -9px;
 .portfolio-menu > button:hover,.portfolio-menu > button.active{
 	background: #fbba42;
 }
+
+
+
+
+
+/* portfolio-details */
+.project-details-title {
+	font-size: 28px;
+	font-weight: 600;
+}
+.project-desc > p {
+	margin-bottom: 30px;
+}
+.project-status {
+	padding: 40px;
+}
+.project-status ul li {
+	margin-bottom: 30px;
+}
+.project-status ul li:last-child {
+	margin-bottom: 0;
+}
+.project-status ul li span {
+	color: #777;
+	font-size: 17px;
+	display: block;
+	margin-top: 10px;
+}
+.project-status ul li b {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* section-title */
 .section-title > h2 {
 	font-size: 26px;
@@ -871,6 +915,40 @@ overflow: hidden;
 	display: block;
 }
 
+/* blog-style */
+.blog-item-content a {
+	font-size: 22px;
+	color: #333;
+	font-weight: 600;
+	/*! line-height: 30px; */
+  }
+  .blog-item-content > span {
+	font-size: 14px;
+	color: #333333;
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-family: poppins;
+  }
+  .blog-item-content > span:after {
+	position: absolute;
+	background: #fbba42;
+	height: 2px;
+	width: 80px;
+	top: 9px;
+	left: 70px;
+	content: "";
+  }
+  .blog-item-content > h3 {
+	margin-bottom: 10px;
+  }
+  .blog-item-content > p {
+	margin: 0;
+  }
+  .blog-item-content {
+	padding-top: 20px;
+  }
 
 /* testimonial wrapper */
   .testimonial-wrapper.text-center {
