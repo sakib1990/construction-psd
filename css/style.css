@@ -1183,7 +1183,39 @@ margin-bottom: 7px;
 	background: #fff;
 }
 
+/* team-about-area */
+.team-box {
+	padding: 25px;
+  }
+  .team-title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+  }
+  .team-title > h3 {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	margin-bottom: 7px;
+  }
+  .team-title > span {
+	font-size: 16px;
+	color: #777777;
+  }
+  .team-about-icon > a {
+	font-size: 14px;
+	background: #f7f7f7;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #3f5666;
+	margin: 0 4px;
+  }
+  .team-about-icon > a:hover {background: #f8ca4d;}
 
+
+  /* our-mission */
 .our-mission .btn-link {
 	font-size: 18px;
 	font-weight: 600;
@@ -1251,3 +1283,21 @@ margin-bottom: 7px;
 	padding: 1.25rem;
 	padding-left: 0;
 }
+
+/* page-title-area */
+.page-title h1 {
+	font-size: 72px;
+	font-weight: 700;
+	color: #414149;
+}
+.breadcrumb-item > a {
+	color: #2f3440;
+	font-size: 17px;
+}
+.breadcrumb {
+	border-radius: 0;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
