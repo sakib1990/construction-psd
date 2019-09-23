@@ -1301,3 +1301,36 @@ margin-bottom: 7px;
 	margin: 0;
 }
 
+
+
+
+
+/* service area */
+.service-box {
+	padding: 30px;
+	border: 2px solid transparent;
+	transition: .3s;
+}
+.service-box:hover{
+	border-color: #f2f2f2; 
+}
+.service-box i {
+	height: 50px;
+	width: 50px;
+	font-size: 28px;
+	background: #f2f2f2;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	margin-bottom: 30px;
+	color: #333333;
+  }
+  .service-box > h3 {
+	font-size: 28px;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: 15px;
+  }
+  .service-box > p {
+	margin-bottom: 0;
+  }
