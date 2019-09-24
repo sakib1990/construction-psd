@@ -949,6 +949,47 @@ overflow: hidden;
   .blog-item-content {
 	padding-top: 20px;
   }
+.construction-pagination .page-item:first-child .page-link{}
+.construction-pagination .page-item:first-child .page-link {
+	margin-left: 0;
+	border-radius: 0;
+}
+
+.construction-pagination .page-item {
+	margin: 0 5px;
+}
+
+.construction-pagination .page-item:first-child .page-link {
+border-radius: 0;
+}
+
+.construction-pagination .page-link {
+	position: relative;
+	display: block;
+	padding: .5rem .75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #444;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-weight: 400;
+	width: 40px;
+	text-align: center;
+}
+.construction-pagination .page-item.active .page-link {
+	z-index: 1;
+	color: #fff;
+	background-color: #fbba42;
+	border-color: #fbba42;
+}
+
+
+
+
+
+
+
+
 
 /* testimonial wrapper */
   .testimonial-wrapper.text-center {
