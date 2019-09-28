@@ -1700,14 +1700,125 @@ color: #292929;
 	padding-top: 17px;
 	padding-bottom: 17px;
 }
-.product-desc span {
+.product-desc > span {
 	font-size: 28px;
 	font-weight: 600;
-	margin: 15px 0;
+	margin: 18px 0;
 	display: block;
+	color: #333333;
 }
-  .product-tab{}
-  .product-tab{}
-  .product-tab{}
-  .product-tab{}
-  .product-tab{}
+.shop-area .nav-link {
+    padding: 0;
+}
+span {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0;
+	color: #6e6e6e;
+}
+
+
+
+
+
+
+
+
+/* review */
+.review-tab .nav-link {
+	color: #333;
+	font-weight: 500;
+	padding: 0;
+	font-size: 18px;
+	padding-bottom: 15px;
+	padding-bottom: 15px;
+	
+}
+.review-tab .nav-item {
+	margin-right: 65px;
+	padding-bottom: 15px;
+	position: relative;
+	
+}
+.nav.review-tab {
+	border-bottom: 1px solid #e5e5e5;
+}
+.review-tab .nav-link.active:before{
+	background: #fbba42;
+	content: "" ;
+	bottom: -1px;
+	height:2px;
+	position: absolute;
+	width: 100%;
+	transition: .3s;
+
+	border-bottom: 2px solid #fbba42;
+}
+.pro-comments-img {
+	float: left;
+}
+.pro-comments-text {
+	overflow: hidden;
+	margin-left: 80px;
+}
+.pro-comments-text h4 {
+	font-size: 17px;
+}
+.pro-comments-text span {
+	font-size: 14px;
+}
+.pro-comments-text .rating {
+	margin-bottom: 20px;
+}
+.pro-comments-text > p {
+	margin: 0;
+}
+.product-comments-list {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 40px;
+}
+.product-comments .product-comments-list:last-child{
+	border: 0;
+}
+
+/* review-box */
+.review-box h4 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.rating-list {
+	display: inline-block;
+}
+.your-rating span {
+	font-size: 16px;
+	color: #737377;
+}
+.rating-list > a {
+	font-size: 13px;
+	color: #717171;
+}
+
+.review-form{}
+.review-form label {
+	display: block;
+	font-size: 16px;
+	color: #414149;
+	margin-bottom: 15px;
+}
+.review-form textarea {
+	height: 80px;
+	width: 100%;
+	border: 1px solid #eaeaea;
+	padding:15px;
+	margin-bottom: 25px;
+}
+.review-form input{
+	height: 40px;
+	width: 100%;
+	border: 1px solid #eaeaea;
+	margin-bottom: 30px;
+	padding: 0 15px;
+
+}
+.review-form button{}
