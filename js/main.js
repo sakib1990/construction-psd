@@ -221,5 +221,7 @@
     time: 1000
 });
 
+// niceSelect
+$('select').niceSelect();
 
 })(jQuery);
