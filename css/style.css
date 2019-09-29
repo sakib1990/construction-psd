@@ -1084,6 +1084,11 @@ border-radius: 0;
 	display: inline-block;
 	padding: 10px;
 	color: #646464;
+	font-size: 12px;
+}
+.tags li a:hover{
+	background: #fbba42;
+	border-color: #fbba42;
 }
 .tags li {
 	margin-right: 8px;
@@ -1091,11 +1096,109 @@ border-radius: 0;
 	display: inline-block;
 }
 
+/* Blog-details */
+.blockquote {
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
+	margin-left: 50px;
+	border-left: 5px solid #e6e6e6;
+	padding-left: 15px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.blog-post-tag a {
+	border: 1px solid #ededed;
+	color: #444;
+	padding: 10px;
+	font-size: 12px;
+	display: inline-block;
+}
+.blog-post-tag a:hover{
+	background: #fbba42;
+	border-color: #fbba42;
+}
+.blog-share-icon span {
+	color: #595959;
+	font-size: 15px;
+}
+.blog-share-icon a {
+	color: #595959;
+	font-size: 15px;
+	margin: 0px 5px;
+}
+.blog-share-icon a:hover{
+	color:#fbba42;
+}
+.blog-share-icon {
+	margin-top: 80px;
+}
+/* blog-comments */
+.comments-avatar {
+	float: left;
+	width: 103px;
+}
+  .comments-text {
+	overflow: hidden;
+	padding-left: 30px;
+}
+.comments-box {
+	margin-bottom: 50px;
+}
+.comments-reply {
+	padding-left: 130px;
+}
+  .avatar-name h5 {
+	float: left;
+	font-size: 14px;
+	font-weight: 600;
+  }
+  .avatar-name span {
+	float: right;
+	font-size: 12px;
+	color: #646464;
+  }
+  .avatar-name {
+	overflow: hidden;
+	margin-bottom: 10px;
+  }
+  .comments-text p {
+	color: #646464;
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 25px;
+  }
+  .comments-text a {
+	border: 1px solid #ddd;
+	padding: 7px 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #444;
+	font-size: 13px;
+	font-weight: 500;
+  }
+  .comments-text a:hover{
+	  background: #fbba42;
+	  border-color: #fbba42;
+  }
 
 
-
-
-
+  .post-comments-form{}
+  .post-comments-form input {
+	height: 45px;
+	border: 1px solid #e6e6e6;
+	width: 100%;
+	padding: 0 15px;
+	margin-bottom: 25px;
+}
+.post-comments-form textarea {
+	width: 100%;
+	border: 1px solid #e6e6e6;
+	padding: 15px;
+	height: 130px;
+	margin-bottom: 25px;
+	
+}
+  .post-comments-form button{}
 
 /* testimonial wrapper */
   .testimonial-wrapper.text-center {
