@@ -385,7 +385,7 @@ social-header-3::before{
     font-weight: 500;
 }
 .header-button > a:hover {
-	background: #fff;
+	background: #fbba42;
 	color: #3b3f42;
 	border-color: #fbba42;
 }
@@ -442,8 +442,8 @@ header.transparent-header {
 
 
 
-.main-menu ul li:hover > a{
-	color: #fff;
+.main-menu ul li:hover > a {
+	color: #fbba42;
 }
 
 .main-menu ul li ul.submenu {
@@ -1153,16 +1153,17 @@ border-radius: 0;
 	color: #595959;
 	font-size: 15px;
 }
+
 .blog-share-icon a {
 	color: #595959;
 	font-size: 15px;
-	margin: 0px 5px;
+	margin: 0px 8px;
 }
 .blog-share-icon a:hover{
 	color:#fbba42;
 }
 .blog-share-icon {
-	margin-top: 80px;
+	margin-top:10px;
 }
 /* blog-comments */
 .comments-avatar {

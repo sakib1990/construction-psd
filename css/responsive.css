@@ -207,7 +207,9 @@ padding: 14px 16px;
 .contact-info {
 	margin-top: 30px;
 }
-
+.rc-post li {
+	padding-bottom: 23px;
+}
 
 
 
@@ -341,6 +343,7 @@ p {
 }
 .post-comments-form {
 	padding-right: 0;
+	margin-bottom: 50px;
 }
 .blog-space{
 	padding-right: 15px;
@@ -423,6 +426,14 @@ p {
 	float: left;
 	margin-top: 25px;
 }
+.rc-post li {
+	padding-bottom: 23px;
+}
+
+
+
+
+
 }
  
 /* SM Small Device :550px. */
