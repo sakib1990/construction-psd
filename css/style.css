@@ -1372,10 +1372,11 @@ margin-bottom: 7px;
 
 .footer-link li a::before {
 	content: "\f0da";
-	font-family: fontawesome ;
+	font-family: "Font Awesome 5 Free";
 	position: absolute;
 	top: 0;
 	left: 0;
+	font-weight: 900; 
 }
 .footer-link li {
 	width: 50%;
