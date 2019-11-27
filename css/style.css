@@ -614,6 +614,14 @@ header-3-right{
 	margin-bottom: 25px;
 	display: block;
 }
+.promotion-img {
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    top: 0;
+    left: 0px;
+    background-size: cover;
+}
 .promotion-text > p {
 	font-size: 17px;
 	line-height: 30px;
@@ -1258,6 +1266,8 @@ border-radius: 0;
 }
 .testimonial-wrapper {
 	border: 1px solid #ebebeb;
+	padidng: 0 40px 35px;
+	margin-top: 61px;
 }
 .section-title > h2 {
 	font-size: 26px;
