@@ -113,9 +113,11 @@ padding: 14px 16px;
 	margin-left: 20px;
 }
 .main-menu ul li ul.submenu {
-	
 	width: 180px;
 	
+}
+.blog-inner a {
+	font-size: 15px;
 }
 }
  
