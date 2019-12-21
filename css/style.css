@@ -204,10 +204,18 @@ background: #444;
 	font-weight: 600;
 	background: #2f3440;
 }
+.btn:hover {
+	background: #fff;
+	color: #222;
+}
 
 .btn.brand-btn {
 	background: #fbba42;
 	color: #222;
+}
+.btn.brand-btn:hover {
+	background: #000a2d;
+	color: #fbba42;
 }
 
 .btn.btn-2 {
