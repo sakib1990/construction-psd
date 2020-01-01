@@ -623,12 +623,12 @@ header-3-right{
 	display: block;
 }
 .promotion-img {
-    position: absolute;
-    height: 100%;
-    width: 55%;
-    top: 0;
-    left: 0px;
-    background-size: cover;
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 0;
+	left: 0px;
+	background-size: cover;
 }
 .promotion-text > p {
 	font-size: 17px;
