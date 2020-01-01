@@ -1445,7 +1445,7 @@ margin-bottom: 7px;
 
 /* extra-info */
 .extra-info {
-	background: #222;
+	background: #fbba42;
 	width: 400px;
 	height: 100%;
 	position: fixed;
@@ -1455,7 +1455,6 @@ margin-bottom: 7px;
 	padding: 30px;
 	transition: .7s;
 	transform: translateX(100%);
-	
 }
 .extra-info.info-open {
 	transform: translateX(0);
@@ -1480,7 +1479,7 @@ margin-bottom: 7px;
 	color: #fff;
 	height: 40px;
 	width: 40px;
-	border: 2px solid #ddd;
+	border: 2px solid #fff;
 	display: inline-block;
 	text-align: center;
 	line-height: 40px;
@@ -1490,18 +1489,21 @@ margin-bottom: 7px;
 	overflow: hidden;
 }
 .extra-info > p {
-	color: #ddd;
+	color: #fff;
 	font-size: 15px;
 	line-height: 28px;
+	font-weight: 600;
 }
 .close-icon > button {
-	background: 0;
+	background: #fff;
 	border: 0;
 	color: #fbba42;
 	font-size: 20px;
 	padding: 0;
 	cursor: pointer;
-  }
+	height: 30px;
+	width: 30px;
+}
   .close-icon {
 	text-align: right;
 	margin-top: -16px;
